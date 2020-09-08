@@ -147,4 +147,4 @@ for filename in os.listdir('./cogs'): # works with all .py files
         client.load_extension(f'cogs.{filename[:-3]}')
         print(filename[:-3])
 
-client.run('NzI3MDI2OTEwNTI5NDU0MTMw.Xvl3Dg.RIvEPekWRpSYqyQ8yY08HIs8FCE')
+client.run('token')
