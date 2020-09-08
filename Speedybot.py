@@ -34,4 +34,4 @@ async def on_member_remove(member):
 async def clear(ctx, amount=5):
     await ctx.channel.purge(limit=amount) #Accessing channel that command was running and deleting messages
 
-client.run('NzI3Mjg3MjQ4Njk3MTYzNzk3.Xvpppg.QQnu7_ht_uk6Ky_EOsse-ePW_IY')
+client.run('token')
